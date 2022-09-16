@@ -1,6 +1,6 @@
 echo "Running tests..."
 echo
-g++ hello.cpp -o a
+g++ hello.cpp -o a.out
 output=$(./a.out)
 expected_output="Hello, World!"
 
